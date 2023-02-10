@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-color:lightblue
+  }
+  
+  
+  
+  img {
+  width: 100%;
+  border-radius: 10px
+  }
+  
+  * {
+  margin: 0;
+  padding: 0
+   }
+  
+  .card {
+   border: 2px solid rgb(128, 4, 128); 
+    width: 28%;
+  background-color: white;
+  }
+  
+  .box{
+    display: flex;
+  gap: 5px;
+  }
+  
+  a{
+    display: inline-block;
+    text-decoration:none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3d3c;
+    text-transform: uppercase; 
+    }
+  
+    .card:hover {
+    width: 30%;
+    box-shadow: 0 0 15px #222222;
+  }
+  
+  .card-gif {
+    width: 300px;
+    margin-top: 40px;
+  }
+ 
+  .text {
+    border: 2px solid rgb(128, 4, 128); 
+     width: 28%;
+   background-color: white;
+   }
+   .text:hover {
+    width: 35%;
+    box-shadow: 0 0 15px #222222;
+  }
+
+.taxt{color: darkorange;}
+     
+    
+  
